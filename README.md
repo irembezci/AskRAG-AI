@@ -1,8 +1,8 @@
-# 📄 AskRAG
+# AskRAG
 
 AskRAG, dokümanlarınızla sohbet etmenizi sağlayan, Retrieval-Augmented Generation (RAG) tabanlı bir AI asistan uygulamasıdır.
 
-## ✨ Özellikler
+## Özellikler
 
 - 📁 **Çoklu Dosya Desteği**: PDF, DOCX ve TXT dosyalarını yükleyin
 - 🌐 **Çift Dilli**: Türkçe ve İngilizce arayüz ve yanıt desteği
@@ -10,7 +10,7 @@ AskRAG, dokümanlarınızla sohbet etmenizi sağlayan, Retrieval-Augmented Gener
 - 🔍 **Akıllı Arama**: Yüklediğiniz dokümanlardan ilgili bilgileri bulur
 - 🤖 **Ollama Entegrasyonu**: Yerel AI modelleri kullanır
 
-## 🚀 Kurulum
+## Kurulum
 
 ### Gereksinimler
 
@@ -72,7 +72,7 @@ askrag-ai/
 └── README.md
 ```
 
-## 🛠️ Teknolojiler
+## Teknolojiler
 
 - **Streamlit**: Web arayüzü
 - **LangChain**: RAG pipeline
@@ -80,7 +80,7 @@ askrag-ai/
 - **ChromaDB**: Vector database
 - **FAISS**: Similarity search
 
-## ⚙️ Yapılandırma
+## Yapılandırma
 
 `utils/rag.py` dosyasından model ayarlarını değiştirebilirsiniz:
 ```python
@@ -98,33 +98,33 @@ splitter = RecursiveCharacterTextSplitter(
 ```
 ## 🇹🇷 Türkçe Kullanım Akışı
 
-### 📌 Ana Ekran
+### Ana Ekran
 Uygulama varsayılan olarak Türkçe arayüzle açılır.
 
 ![Türkçe ana ekran](images/tr.png)
 
-### 📁 Dosya Yükleme
+### Dosya Yükleme
 PDF, DOCX veya TXT dosyalarınızı sürükleyip bırakabilirsiniz.
 
 ![Dosya yükleme](images/dosya-yukleme.png)
 
-### 💬 Dokümanlarla Sohbet
+### Dokümanlarla Sohbet
 Yüklenen dokümanlar üzerinden doğal dilde sorular sorabilirsiniz.
 
 ![Türkçe sohbet](images/tr-chat.png)
 
-### ⏳ Yanıt Oluşturma
+### Yanıt Oluşturma
 Asistan yanıt üretirken durum bilgisi gösterilir.
 
 ![Asistan düşünüyor](images/asistan-dusunuyor.png)
 
-### 🌐 Dil Değiştirme
+### Dil Değiştirme
 Dil değiştirildiğinde dokümanların yeniden yüklenmesi istenir.
 
 ![Dil değiştirildi uyarısı](images/dil-degistirme.png)
 
 
-## 🤝 Katkıda Bulunma
+## Katkıda Bulunma
 
 1. Bu repository'yi fark edin
 2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
@@ -132,25 +132,25 @@ Dil değiştirildiğinde dokümanların yeniden yüklenmesi istenir.
 4. Branch'inizi push edin (`git push origin feature/AmazingFeature`)
 5. Pull Request açın
 
-## 📝 Lisans
+## Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
 
-## 📧 İletişim
+## İletişim
 
 Sorularınız için [GitHub Issues](https://github.com/irembezci/askrag-ai/issues) kullanabilirsiniz.
 
-## 🙏 Teşekkürler
+## Teşekkürler
 
 - [LangChain](https://langchain.com)
 - [Streamlit](https://streamlit.io)
 - [Ollama](https://ollama.ai)
 
-# 📄 AskRAG
+# AskRAG
 
 AskRAG is a Retrieval-Augmented Generation (RAG)–based AI assistant application that allows you to chat with your documents.
 
-## ✨ Features
+## Features
 
 - 📁 **Multi-File Support**: Upload PDF, DOCX, and TXT files
 - 🌐 **Bilingual**: Turkish and English interface and response support
@@ -158,7 +158,7 @@ AskRAG is a Retrieval-Augmented Generation (RAG)–based AI assistant applicatio
 - 🔍 **Smart Search**: Finds relevant information from your uploaded documents
 - 🤖 **Ollama Integration**: Uses local AI models
 
-## 🚀 Installation
+## Installation
 
 ### Requirements
 
@@ -220,7 +220,7 @@ askrag-ai/
 └── README.md
 ```
 
-## 🛠️ Technologies
+## Technologies
 
 - **Streamlit**: Web interface  
 - **LangChain**: RAG pipeline  
@@ -228,7 +228,7 @@ askrag-ai/
 - **ChromaDB**: Vector database  
 - **FAISS**: Similarity search  
 
-## ⚙️ Configuration
+## Configuration
 
 You can change the model settings from the `utils/rag.py` file:
 ```python
@@ -245,25 +245,25 @@ splitter = RecursiveCharacterTextSplitter(
 )
 ```
 
-## 🇬🇧 English Usage Flow
+## English Usage Flow
 
-### 📌 Main Screen
+### Main Screen
 The interface can be switched to English from the language selector.
 
 ![English home](images/eng.png)
 
-### 💬 Chat with Documents
+### Chat with Documents
 Ask questions about your uploaded documents in English.
 
 ![English chat](images/eng-chat.png)
 
-### 🌐 Language Change Warning
+### Language Change Warning
 When the language is changed, documents must be re-uploaded.
 
 ![Language change warning](images/language-change.png)
 
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork this repository  
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)  
@@ -271,15 +271,15 @@ When the language is changed, documents must be re-uploaded.
 4. Push your branch (`git push origin feature/AmazingFeature`)  
 5. Open a Pull Request  
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 📧 Contact
+## Contact
 
 For questions, please use [GitHub Issues](https://github.com/irembezci/askrag-ai/issues).
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [LangChain](https://langchain.com)  
 - [Streamlit](https://streamlit.io)  
